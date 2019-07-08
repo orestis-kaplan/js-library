@@ -1,0 +1,71 @@
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  background-image: url('/images/library.jpg');
+}
+.title{
+  color: aliceblue;
+}
+/* add button style */
+.user-options{
+  margin-top: 4px;
+}
+.cancel-btn{
+  float: left;
+}
+.delete-button{
+  background-color: #577f7fdb;
+  padding: 1px 12px;
+  margin-top: 3px;
+}
+/* style of shelf */
+.book-shelf{
+  background-color: #f0f8ffbf;
+  border: 3px solid #3D9970;
+  border-radius: 12px;
+}
+.books-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+.book-info{
+  font-size: 16px;
+  font-weight: bold;
+}
+.book-info :nth-child(2){
+  text-decoration: underline;
+}
+/* style of each book */
+.book{
+  flex-basis: 20%;
+  list-style: none;
+  padding: 10px;
+  margin: 15px;
+}
+.book > * {
+  word-break: break-all;
+}
+.book-contents{
+  border: 2px solid #a25f5f;
+  border-radius: 8px;
+  box-shadow: 10px 11px 9px #888888;
+  padding: inherit;
+}
+/* user options section */
+.displayname{
+  display: inline-block;
+}
+/* Modal */
+.modal{
+  background-color: #2a2b2ca6;
+}
+.modal-content{
+  margin: 0 auto;
+  min-width: 300px;
+  top: 140px;
+  width: 25%;
+}
