@@ -3,7 +3,7 @@ body {
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
-  background-image: url('/images/library.jpg');
+  background-image: url('../images/library.jpg');
 }
 .title{
   color: aliceblue;
