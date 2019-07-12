@@ -4,11 +4,11 @@
 
 #### Actions of user:
 * A user can create/delete a book.
-#### A book has 4 fields: 
+#### A book has 4 fields:
 * Title
 * Author
 * Pages
 * Read status(checkbox)
 
-# Contributors 
+# Contributors
  * Orestis Kaplanis
