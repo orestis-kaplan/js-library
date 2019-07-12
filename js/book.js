@@ -1,4 +1,3 @@
-/*jshint esversion: 6 */
 
 function Book(name, author, pages, read) {
   this.id = parseInt(localStorage.bookId);
@@ -9,7 +8,6 @@ function Book(name, author, pages, read) {
   localStorage.bookId++;
 }
 
-// Display each book on the page
 Book.prototype.render = function() {
   return `
           <li class="book" id="${this.id}">
