@@ -1,5 +1,7 @@
 # Library project
 
+## Online preview:  https://userman95.github.io/js-library/
+
 ### In this project there is a graphical simulation of a digital library using plain and basic javascript.
 
 #### Actions of user:
